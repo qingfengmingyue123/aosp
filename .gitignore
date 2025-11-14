@@ -1,0 +1,44 @@
+# AOSP 构建输出
+out/
+
+# Repo 管理目录
+.repo/
+
+# 编译中间文件
+*.o
+*.ko
+*.so
+*.a
+*.d
+*.su
+*.mod
+
+# Java 编译输出
+*.class
+*.jar
+*.dex
+
+# Android 特定
+*.apk
+*.aab
+*.odex
+*.vdex
+
+# 日志文件
+*.log
+dmesg.txt
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 大型文件
+*.img
+*.zip
+*.tar.gz
+
+# IDE 文件
+.idea/
+.vscode/
+*.iml
